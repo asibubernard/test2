@@ -1,10 +1,10 @@
 from .base import *
-import dj_tatabase_url
+import dj_database_url
 
 env = os.environ.copy()
 
 
-SECRET_KEY = os.environ.get('SECRET_KEY',)
+SECRET_KEY = os.environ.get('SECRET_KEY')
 
 DEBUG = False
 
