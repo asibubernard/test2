@@ -4,7 +4,8 @@ import dj_database_url
 env = os.environ.copy()
 
 
-SECRET_KEY = os.environ.get('SECRET_KEY')
+SECRET_KEY = os.environ.get('SECRET_KEY',
+default='pskdjg-34098e-340t98dsgljsflad7n8kj786876@@jhlkafadljad' )
 
 DEBUG = False
 
